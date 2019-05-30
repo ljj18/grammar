@@ -51,7 +51,6 @@ public class GenericTest extends TestCase {
     /**
      * 上界通配符 <? extends xxx>,直白点说：xxx 或是 xxx 基类的对象都可以放到容器
      * 
-     * 上界通配符副作用是：会使set方法失效，因为编辑器只知道容器是基类或基类派生类,但具体是什么类不知道,所有编辑无法确定set类否与容器中标识是否有效。
      */
     @ SuppressWarnings("unused")
     public void testLower() {
